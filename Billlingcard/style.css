@@ -1,0 +1,226 @@
+@media screen and (min-width:480px){
+
+.block {
+    grid-area: block;
+}
+*{
+    cursor:pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 'block';
+
+}
+
+
+
+.block {
+    height:616px;
+    background-color: aliceblue;
+    margin: auto;
+    width: 390px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.block #image {
+    width: 390px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.block .plan {
+    width: 300px;
+    height: 89px;
+    margin: auto;
+    background-color: #f0f2ff;
+    border-radius: 16px;
+
+
+}
+
+.block .plan p {
+    float: right;
+    font-weight: 500;
+    padding-right: 133px;
+    margin-top: -42px;
+    padding-left: 78px;
+
+}
+
+.block .plan .icon {
+    padding-top: 23px;
+    width: 48px;
+    height: 49px;
+    padding-left: 22px;
+}
+
+.block .plan a {
+    padding-left: 155px;
+
+}
+
+.block .para{
+    line-height: 8px;
+}
+
+
+#pattern {
+    background-repeat: no-repeat;
+   
+    background-color: #2b67e240;
+
+}
+
+.block .button{
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 34px;
+    width: 306px;
+    border-color: #0000fffa;
+    margin-left: 46px;
+    height: 37px;
+    box-shadow: 1px 22px 5px #1200ff0f;
+    background-color: #0000fffa;
+}
+.block .order{
+    
+    margin: auto;
+    text-align: center;
+    margin-top: 26px;
+    padding-top: 3px;
+    color:grey;
+
+}
+.block .plan .price{
+    color: grey;
+    margin-right: 9px;
+  
+    padding-top: 11px;
+    
+}  
+.block .plan .change{
+    padding-left:34px;
+    padding-right: 24px;
+    font-size: 13px;
+    color: blue;
+    
+}
+}
+
+
+
+
+@media screen and (max-width:480px){
+
+.block {
+    grid-area: block;
+}
+
+*{
+    cursor:pointer;
+}
+
+
+.container {
+    display: grid;
+    grid-template-areas: 'block';
+
+}
+
+
+
+.block {
+    height: 616px;
+    background-color: aliceblue;
+    margin: auto;
+    width: 390px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.block #image {
+    width: 390px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.block .plan {
+    width: 300px;
+    height: 89px;
+    margin: auto;
+    background-color: #f0f2ff;
+    border-radius: 16px;
+
+
+}
+
+.block .plan p {
+    float: right;
+    font-weight: 500;
+    padding-right: 133px;
+    margin-top: -42px;
+    padding-left: 78px;
+
+}
+
+.block .plan .icon {
+    padding-top: 23px;
+    width: 48px;
+    height: 49px;
+    padding-left: 22px;
+}
+
+.block .plan a {
+    padding-left: 155px;
+
+}
+
+.block .para{
+    line-height: 8px;
+}
+
+
+#pattern {
+    background-repeat: no-repeat;
+   background-image:url("C:\Users\PRASHANT\Downloads\pattern-background-mobile.svg");
+    background-color: #2b67e240;
+
+}
+
+.block .button{
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 34px;
+    width: 306px;
+    border-color: #0000fffa;
+    margin-left: 46px;
+    height: 37px;
+    box-shadow: 1px 22px 5px #1200ff0f;
+    background-color: #0000fffa;
+}
+.block .order{
+    
+    margin: auto;
+    text-align: center;
+    margin-top: 26px;
+    padding-top: 3px;
+    color:grey;
+
+}
+.block .plan .price{
+    color: grey;
+    margin-right: 9px;
+  
+    padding-top: 11px;
+    
+}  
+.block .plan .change{
+    padding-left:34px;
+    padding-right: 24px;
+    font-size: 13px;
+    color: blue;
+    
+}
+}
